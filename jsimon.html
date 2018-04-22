@@ -1,0 +1,30 @@
+<body>
+  <div id="simon">
+    <div class="container-fluid row no-gutter">
+      <div class="col-xs-6">
+        <div id="green" class="green click pull-right"></div>
+      </div>
+      <div class="col-xs-6">
+        <div id="red" class="red click col-xs-6 pull-left"></div>
+      </div>
+      <div class="col-xs-6">
+        <div id="yellow" class="yellow click col-xs-6 pull-right"></div>
+      </div>
+      <div class="col-xs-6">
+        <div id="blue" class="blue click col-xs-6 pull-left"></div>
+      </div>
+    </div>
+  </div>
+  <div class="center container row" id="buttons">
+    <div class="col-xs-12">
+      <button class="btn btn-info outline" id="go" onclick="start()">GO</button>
+      <button class="btn btn-info outline" id="reset" onclick="reset()">RESET</button>
+      <div class="vcenter" id="moves">0</div>
+
+      <div class="onoffswitch vcenter">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+        <label class="onoffswitch-label" for="myonoffswitch">STRICT</label>
+      </div>
+    </div>
+  </div>
+</body>
